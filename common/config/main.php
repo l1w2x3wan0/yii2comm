@@ -5,13 +5,13 @@ return [
     'timeZone' => 'Asia/Shanghai',
     'version'  => '0.1',
     'charset'  => 'UTF-8',
-    'vendorPath'  => '@app/vendor',
+    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
 
     'aliases' => [
         '@bower' => '@vendor/bower-asset',
         '@npm'   => '@vendor/npm-asset',
     ],
-    'vendorPath' => dirname(dirname(__DIR__)) . '/vendor',
+
     'components' => [
         'cache' => [
             'class' => 'yii\caching\FileCache',

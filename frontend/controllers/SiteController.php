@@ -18,6 +18,8 @@ use frontend\models\ContactForm;
  */
 class SiteController extends Controller
 {
+    public $defaultAction = 'index';  // 默认动作
+    public $layout = 'main';            // 默认布局  false: 不使用布局
     /**
      * {@inheritdoc}
      */

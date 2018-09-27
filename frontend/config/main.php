@@ -45,5 +45,7 @@ return [
         ],
         */
     ],
+
+    'defaultRoute' => 'site',   // 默认控制器
     'params' => $params,
 ];
